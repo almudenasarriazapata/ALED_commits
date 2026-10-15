@@ -21,5 +21,15 @@ public class sumaArrays {
 		if (n == array.length-1)
 			return array[n];
 		return array[n]+sumaArraysRecursivo(array, n+1);
+	
+	}
+	
+	public double aritmeticaRec (int n, double d, double a0 ) throws Exception{
+		if (n<0)
+			throw new Exception("El número n debe ser natural o 0");
+		if (n == 0)
+			return a0;
+		return d*n + a0 + aritmeticaRec(n-1, d, a0);
+		
 	}
 }
