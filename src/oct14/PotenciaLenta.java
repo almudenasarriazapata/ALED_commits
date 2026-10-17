@@ -3,9 +3,8 @@ package oct14;
 public class PotenciaLenta {
 	static int potenciaLenta (int a, int b) {
 		int p = 1;
-		for (int i = 1; i <= b; i++) {
-			p = p*a;
-		}
+		for (int i = 1; i <= b; i++)
+			p*=a;
 		return p;
 	}
 	
