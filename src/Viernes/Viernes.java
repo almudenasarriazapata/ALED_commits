@@ -1,5 +1,6 @@
 package Viernes;
 
+
 public class Viernes {
 
 	//ejemplo de recursividad numero 40, así hasta que lo entienda 
