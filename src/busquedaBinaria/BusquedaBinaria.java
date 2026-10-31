@@ -20,7 +20,6 @@ public class BusquedaBinaria {
 
 	            } else if (numeros[medio] < buscado) {
 	                inicio = medio + 1;
-
 	            } else {
 	                fin = medio - 1;
 	            }
