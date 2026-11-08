@@ -10,6 +10,7 @@ public class BusquedaBinaria {
 	        int inicio = 0;
 	        int fin = numeros.length - 1;
 
+	       
 	        while (inicio <= fin) {
 
 	            int medio = (inicio + fin) / 2;
