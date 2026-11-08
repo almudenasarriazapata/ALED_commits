@@ -6,6 +6,7 @@ public class BusquedaBinaria {
 
 	        int[] numeros = {2, 5, 8, 12, 15, 20, 25};
 
+	        
 	        int buscado = 15;
 	        int inicio = 0;
 	        int fin = numeros.length - 1;
