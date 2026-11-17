@@ -5,7 +5,7 @@ public class Viernes {
 
 	//ejemplo de recursividad numero 40, así hasta que lo entienda 
 
-	public static long factorial (int n) {
+	public static long factorial (long n) {
 		if(n<=1) {
 			return 1;
 		}else {
