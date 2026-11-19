@@ -64,7 +64,6 @@ public class Complejidad {
 	
 	public static void main(String[] args) throws Exception {
 		int [] array = {1,3,3,6,5,3,8,-3,1,4,5,5,5,5,5,5,2,121,2,2,6};
-		System.out.println("El array 'array' cumple checkK: " + checkK(array,11));
 		System.out.println(checkK(array,11));
 		//System.out.println(mayoria1(array));
 		System.out.println(mayoria2(array));
